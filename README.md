@@ -34,8 +34,8 @@ This project is a responsive registration form built using HTML, CSS, and JavaSc
 5. To go back to the form after submission, click the "Back to Homepage" button.
 
 ## Demo
+![17293253189211893437990043338187](https://github.com/user-attachments/assets/ddb411e1-6212-4931-9838-4d0fc7633abd)
 
-![Form Screenshot](screenshot.png)  
 
 ## License
 
