@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello, world!</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <script src="index.js"></script>
+</head>
+<body>
+  <div class="container" id="container">
+  <form name="text">
+    <h2>Registrations Form</h2>
+    <div class="main">
+      <div class="input-div">
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter Name" id="fullName" required>
+      </div>
+      <div class="input-div">
+        <label>Username</label>
+        <input type="text" placeholder="Enter username" id="userName" required>
+      </div>
+      <div class="input-div">
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" id="emailId" required>
+      </div>
+
+      <div class="input-div">
+        <label>Phone Number</label>
+        <input type="number" placeholder="Enter phone number"  id ="phoneNum" required>
+      </div>
+
+      <div class="input-div">
+        <label>Password</label>
+        <div class="input-password">
+        <input type="password" placeholder="Enter your password" id="password" required>
+          <span class="material-symbols-outlined open-eyes" onclick="openE()" id="openE">
+visibility
+</span>
+          <span  style="display: none" class="material-symbols-outlined close-eyes" onclick="closeE()" id="closeE">
+visibility_off
+</span>
+        </div>
+      </div>
+
+      <div class="input-div">
+        <label>Confirm Password</label>
+        <input type="text" placeholder="Confirm your password"  id="confirmPass" required>
+      </div>
+    </div>
+    <h1>Gender</h1>
+    <div class="gender-div">
+      <div class="gender">
+        <input type="radio" name="gender">
+        <label>Male</label>
+      </div>
+
+      <div class="gender">
+        <input type="radio" name="gender">
+        <label>Female</label>
+      </div>
+
+      <div class="gender">
+        <input type="radio" name="gender">
+        <label>other</label>
+      </div>
+    </div>
+    <div class="warning">
+      <p><i>By clicking Sign Up, you agree to our <span>Terms, Privacy Policy</span> and <span>Cookies Policy.</span>You may receive SMS notifications from us and can opt out at any time.</i></p>
+    </div>
+    <div class="button-div">
+      <button onclick="submitForm()" type="button">Register</button>
+    </div>
+</div>
+</form>
+</div>
+<div class="thank-you-container" id="thank-you-container">
+    <h1>Registration Completed.</h1>
+    <p>Our team contact you in a movement,thank you for contacting.</p>
+    <button class="back-button" onclick="goBack()">Back to Homepage</button>
+  </div>
+</body>
+  </html>
+
+
 
